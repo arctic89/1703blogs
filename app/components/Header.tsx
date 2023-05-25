@@ -7,6 +7,7 @@ export default function Header() {
     <header className={styles.header}>
       <Link href="/">Главная</Link>
       <Link href="/about">О Нас</Link>
+      <Link href="/blog">Наш блог</Link>
       <Link href="/ourGuests">Наши гости</Link>
     </header>
   )

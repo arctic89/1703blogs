@@ -1,3 +1,7 @@
-export default function Home() {
-  return <h1>BLOG</h1>;
+import React from 'react'
+
+export default function MainPage() {
+  return (
+    <h1>MainPage</h1>
+  )
 }

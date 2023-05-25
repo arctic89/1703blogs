@@ -75,6 +75,13 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
+  color: black;
+  transition: color .2s ease-in-out;
+}
+
+a:hover {
+  color: darkorange;
 }
 
 /**
@@ -352,4 +359,8 @@ template {
   max-width: 1180px;
   margin: auto;
   margin-top: 50px;
+}
+
+li {
+  list-style-type: none;
 }
