@@ -1,5 +1,5 @@
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100vw;
   height: 50px;
@@ -11,19 +11,34 @@
 }
 
 .header {
-  position: absolute;
+  position: sticky;
   top: 0;
-  width: 100vw;
-  height: 50px;
+  max-width: 100vw;
+  height: 70px;
+  padding: 0 20px;
   display: flex;
+  background-color: black;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 10px ;
-  background-color: black;
+  justify-content: space-between;
+}
+.header div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
-.header a {
+.header div a {
   color: white;
   text-decoration: none;
+}
+
+.logoWrapper {
+  max-width: 70px;
+  max-height: 100%;
+}
+
+.logoWrapper a img {
+  max-width: 70px;
+  max-height: 70px;
 }
