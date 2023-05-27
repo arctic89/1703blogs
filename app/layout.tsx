@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import CustomVideoComponent from "./components/CustomVideoComponent"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <CustomVideoComponent/>
         <Header />
         <main className="container">{children}</main>
         <Footer />

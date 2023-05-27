@@ -80,7 +80,7 @@ pre {
 a {
   background-color: transparent;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   transition: color 0.2s ease-in-out;
 }
 
@@ -365,12 +365,23 @@ template {
   max-width: 1180px;
   height: 100%;
   margin: auto;
-  background-image: url("https://sun9-37.userapi.com/impf/c637816/v637816556/385c3/-zfUs3gGTj8.jpg?size=1527x2160&quality=96&sign=d7a6abdfa332a07d86f480dbbc8a4cfb&type=album");
+  /* background-image: url("https://sun9-37.userapi.com/impf/c637816/v637816556/385c3/-zfUs3gGTj8.jpg?size=1527x2160&quality=96&sign=d7a6abdfa332a07d86f480dbbc8a4cfb&type=album");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 li {
   list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: white;
 }

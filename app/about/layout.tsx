@@ -8,8 +8,11 @@ export default function AboutLayot({
 }) {
   return (
     <div>
-      <h1>About Us</h1>
+      <h1>Всё о нас</h1>
       <ul>
+        <li>
+          <Link href="/about">О Нас</Link>
+        </li>
         <li>
           <Link href="/about/team">Наша команда</Link>
         </li>

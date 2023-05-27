@@ -58,3 +58,17 @@
   object-fit: cover;
   z-index: -1;
 }
+
+.logoLeft,
+.logoRight {
+  position: absolute;
+  top: 100px;
+  mix-blend-mode: difference;
+  opacity: .8;
+}
+.logoRight {
+  right: 0;
+}
+.logoLeft {
+  left: 0;
+}

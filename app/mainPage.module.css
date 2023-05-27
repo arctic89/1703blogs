@@ -1,0 +1,59 @@
+.hero_title {
+  margin: 0 0 50px 0;
+  mix-blend-mode: difference;
+  color: rgba(255, 255, 255, 0.806);
+  font-size: 10rem;
+  background-color: black;
+  white-space: nowrap;
+}
+
+@media (max-width: 1160px) {
+  .hero_title {
+    text-align: center;
+    font-size: 7rem;
+  }
+}
+@media (max-width: 1000px) {
+  .hero_title {
+    text-align: center;
+    font-size: 5rem;
+  }
+}
+@media (max-width: 580px) {
+  .hero_title {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 360px) {
+  .hero_title {
+    text-align: center;
+    font-size: 2rem;
+    white-space: normal;
+  }
+}
+
+.hero {
+  position: relative;
+  padding: 50px;
+  color: rgb(255, 254, 252);
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+.text {
+  color: rgba(255, 255, 255, 0.818);
+  font-size: 2rem;
+  z-index: 1;
+}
