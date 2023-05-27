@@ -1,6 +1,12 @@
 .footer {
   position: fixed;
   bottom: 0;
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
   width: 100vw;
   height: 50px;
   background-color: black;
@@ -41,4 +47,14 @@
 .logoWrapper a img {
   max-width: 70px;
   max-height: 70px;
+}
+
+.videoFrame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
